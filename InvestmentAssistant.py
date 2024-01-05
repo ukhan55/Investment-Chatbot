@@ -3,7 +3,7 @@ import openai
 import gradio as gr
 
 # Set your OpenAI API key for authentication
-openai.api_key = "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" 
+openai.api_key = "insert open api key here" 
 
 # Initialize a list to keep track of messages in the conversation
 messages = [{"role": "system", "content": "You're an investment assistant with knowledge about all investments."}]
